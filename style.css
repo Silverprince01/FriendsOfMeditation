@@ -1,0 +1,627 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+body .blue {
+  position: absolute;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+header nav {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+header nav h2 {
+  width: 20%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+header nav ul li {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+header nav ul li img {
+  height: 25px;
+}
+
+header nav ul li button {
+  width: 153px;
+  height: 35px;
+  border-radius: 70px;
+  border: none;
+  background-color: #027afd;
+  color: white;
+}
+
+header nav ul li button:hover {
+  background-color: white;
+  color: #027afd;
+  border: 1px solid #027afd;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+  font-weight: 600;
+  min-height: 400px;
+  position: relative;
+}
+
+main .blue2 {
+  position: absolute;
+  bottom: -50%;
+  left: 30%;
+  height: 80%;
+}
+
+main .toEarn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+main .toEarn h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+main .toEarn p {
+  margin-bottom: 30px;
+}
+
+main .toEarn button {
+  width: 70%;
+  height: 70px;
+  border-radius: 20px;
+  border: none;
+  background-color: #027afd;
+  color: white;
+}
+
+main .toEarn button:hover {
+  background-color: white;
+  color: #027afd;
+  border: 1px solid #027afd;
+}
+
+main .toEarn .btn {
+  display: none;
+}
+
+main .images {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+main .images img {
+  height: 30px;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+main .images .img {
+  position: absolute;
+  top: 30%;
+  right: 25%;
+}
+
+section {
+  padding: 60px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+section .earn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 50px;
+}
+
+section .earn div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+}
+
+section .earn div img {
+  height: 60%;
+  margin-bottom: 30px;
+}
+
+section .earn div p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section .start {
+  margin-bottom: 40px;
+}
+
+section .start .wall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 40px;
+}
+
+section .start .wall div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .start .wall div img {
+  margin-bottom: 20px;
+  width: 60%;
+  height: 20%;
+}
+
+section .start .wall div p {
+  font-weight: 700;
+}
+
+section .subscribe {
+  padding: 60px;
+}
+
+section .subscribe h2 {
+  margin-bottom: 30px;
+}
+
+section .subscribe .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .subscribe .sub input {
+  padding: 20px;
+  width: 60%;
+  height: 80px;
+  border: 1px solid #027afd;
+  border-radius: 20px 0 0 20px;
+}
+
+section .subscribe .sub input::-webkit-input-placeholder {
+  color: #027afd;
+}
+
+section .subscribe .sub input:-ms-input-placeholder {
+  color: #027afd;
+}
+
+section .subscribe .sub input::-ms-input-placeholder {
+  color: #027afd;
+}
+
+section .subscribe .sub input::placeholder {
+  color: #027afd;
+}
+
+section .subscribe .sub div {
+  border: 1px solid #027afd;
+  border-radius: 0 20px 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+}
+
+section .subscribe .sub div img {
+  width: 20%;
+}
+
+hr {
+  color: black;
+  border: solid 1px black;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 260px;
+  padding: 40px;
+}
+
+footer h3 {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+footer .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+}
+
+footer .column ul li {
+  margin-top: 10px;
+}
+
+footer .column ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .column ul div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 860px) {
+  header nav ul li {
+    font-size: 15px;
+  }
+  main .blue2 {
+    width: 0;
+    height: 0;
+  }
+  main .toEarn h1 {
+    font-size: 45px;
+  }
+  main .toEarn p {
+    font-size: 15px;
+  }
+  main .images img {
+    width: 120px;
+    height: 120px;
+  }
+  section {
+    padding: 40px;
+  }
+  section h2 {
+    font-size: 18px;
+  }
+  section .earn div p {
+    font-size: 15px;
+  }
+  section .start .wall div img {
+    width: 30%;
+    height: 20%;
+  }
+  section .start .wall div p {
+    font-size: 15px;
+  }
+  section .subscribe .sub .input {
+    width: 80%;
+  }
+  footer {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body .blue {
+    height: 0;
+  }
+  header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 15px;
+  }
+  header nav .hamburger {
+    display: block;
+  }
+  header nav .hamburger.active .bar:nth-child(2) {
+    position: fixed;
+    left: -100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  header nav .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(5px) rotate(45deg);
+            transform: translateY(5px) rotate(45deg);
+  }
+  header nav .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-5px) rotate(-45deg);
+            transform: translateY(-5px) rotate(-45deg);
+  }
+  header nav .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #027afd;
+  }
+  header nav ul {
+    position: absolute;
+    left: -200%;
+    top: 48px;
+    color: white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0 10px 15px #027afd;
+            box-shadow: 0 10px 15px #027afd;
+    z-index: 1;
+    font-size: 20px;
+    text-align: center;
+    color: #027afd;
+    background-color: white;
+    border-radius: 10px;
+  }
+  header nav ul li {
+    margin-bottom: 20px;
+  }
+  header nav ul li:hover {
+    text-decoration: underline;
+  }
+  header nav ul.active {
+    left: 0;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    justify-items: center;
+    padding: 0px;
+  }
+  main .toEarn {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #027afd;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    width: 100%;
+  }
+  main .toEarn h1 {
+    font-size: 40px;
+  }
+  main .toEarn p {
+    font-size: 15px;
+  }
+  main .toEarn .down {
+    display: none;
+  }
+  main .toEarn .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  main .toEarn .btn button {
+    background-color: white;
+    color: #027afd;
+    width: 40%;
+    height: 60px;
+  }
+  main .toEarn .btn button:hover {
+    background-color: #027afd;
+    color: white;
+    border: 1px solid white;
+  }
+  main .images {
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  main .images img {
+    width: 130px;
+    height: 130px;
+  }
+  main .images .img {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+  }
+  section .earn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+  }
+  section .earn div {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 40px;
+  }
+  section .earn div img {
+    width: 80%;
+    height: 100%;
+  }
+  section .earn div p {
+    font-size: 20px;
+  }
+  section .start h2 {
+    font-size: 25px;
+  }
+  section .start .wall {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section .start .wall div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  section .start .wall div img {
+    width: 100px;
+    height: 100px;
+  }
+  section .subscribe {
+    padding: 0px;
+  }
+  section .subscribe .sub {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .subscribe .sub input {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  section .subscribe .sub div {
+    width: 25%;
+    margin: auto;
+    height: 30px;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section .subscribe .sub div img {
+    width: 20px;
+    height: 20px;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .column {
+    margin-bottom: 30px;
+    width: 40%;
+    text-align: center;
+  }
+  footer .column ul li {
+    margin-top: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
