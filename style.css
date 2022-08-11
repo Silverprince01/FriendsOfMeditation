@@ -16,6 +16,7 @@ body .blue {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 header nav {
@@ -65,6 +66,7 @@ header nav ul li button {
   border: none;
   background-color: #027afd;
   color: white;
+  cursor: pointer;
 }
 
 header nav ul li button:hover {
@@ -120,6 +122,7 @@ main .toEarn button {
   border: none;
   background-color: #027afd;
   color: white;
+  cursor: pointer;
 }
 
 main .toEarn button:hover {
@@ -196,6 +199,7 @@ section .earn div {
 section .earn div img {
   height: 60%;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 section .earn div p {
@@ -234,6 +238,7 @@ section .start .wall div {
 section .start .wall div img {
   margin-bottom: 20px;
   width: 60%;
+  cursor: pointer;
   height: 20%;
 }
 
@@ -295,6 +300,7 @@ section .subscribe .sub div {
       -ms-flex-align: center;
           align-items: center;
   width: 150px;
+  cursor: pointer;
 }
 
 section .subscribe .sub div img {
@@ -352,6 +358,10 @@ footer .column ul div {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 20px;
+}
+
+footer .column ul div img {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 860px) {

@@ -13,6 +13,7 @@ body {
 }
 li {
   list-style: none;
+  cursor: pointer;
 }
 header {
   nav {
@@ -42,6 +43,7 @@ header {
           border: none;
           background-color: #027afd;
           color: white;
+          cursor: pointer;
           &:hover {
             background-color: white;
             color: #027afd;
@@ -83,6 +85,7 @@ main {
       border: none;
       background-color: #027afd;
       color: white;
+      cursor: pointer;
       &:hover {
         background-color: white;
         color: #027afd;
@@ -135,6 +138,7 @@ section {
       img {
         height: 60%;
         margin-bottom: 30px;
+        cursor: pointer;
       }
       p {
         text-align: center;
@@ -156,6 +160,7 @@ section {
         img {
           margin-bottom: 20px;
           width: 60%;
+          cursor: pointer;
           height: 20%;
         }
         p {
@@ -191,6 +196,7 @@ section {
         justify-content: center;
         align-items: center;
         width: 150px;
+        cursor: pointer;
         img {
           width: 20%;
         }
@@ -232,6 +238,9 @@ footer {
         justify-content: space-between;
         margin-top: 20px;
         // width: 70%;
+        img {
+          cursor: pointer;
+        }
       }
     }
     // padding: 0 50px;
